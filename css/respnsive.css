@@ -1,0 +1,38 @@
+@media (max-width: 992px) {
+  header {
+    background: #1a54e7;
+  }
+  #nav {
+    display: none;
+  }
+
+  #nav.active {
+    display: block;
+    position: absolute;
+    width: 100%;
+    display: block;
+    top: 72px;
+    background: #ddd;
+  }
+
+  header ul {
+    display: block !important;
+  }
+
+  header ul li {
+    display: block !important;
+  }
+
+  header ul li a {
+    display: block !important;
+    line-height: 25px;
+    padding: 5px 10px !important;
+  }
+  header ul li a:hover {
+    background: #1a54e7;
+    color: white !important;
+  }
+  ul#main-nav img.small-icon {
+    margin: 9px 0px 4px 14px;
+  }
+}
